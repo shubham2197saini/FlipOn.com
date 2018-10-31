@@ -1,0 +1,558 @@
+<hmtl>
+    <head>
+        <title>::My Shop::</title>
+        <meta charset="utf-8">
+        
+         <link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet" type="text/css">
+        
+        <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <link href="css/media.css" rel="stylesheet" type="text/css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         
+        <script>
+         $(document).ready(function(){
+    $(".search-area").on({
+        click: function(){
+            $(this).css("background-color", "#f0f03a");
+        } , 
+       mouseleave: function(){
+            $(this).css("background-color", "white");
+        }
+        
+    });
+});      
+        </script>
+          <script>
+         $(document).ready(function(){
+    $(".search-area").on({
+        click: function(){
+            $(this).css("background-color", "#f0f03a");
+        } , 
+       mouseleave: function(){
+            $(this).css("background-color", "white");
+        }
+        
+    });
+});      
+        </script>
+        <script>
+            $(document).ready(function(){
+
+var re = /(\w+)\@(\w+)\.[a-zA-Z]/g;
+var email = getElementById("input1");
+var emailValue = email.value;
+var testEmail = re.test(emailValue);
+
+    $('.sub1').click(function(){
+    if(!testEmail){
+        alert("Please enter a valid email");
+    } else {
+        confirm("Is " + emailValue + " the email you want to use?");
+    }
+    });
+});
+        </script>
+        
+    </head>
+    
+<body>
+    
+    <div id="wrapper"> 
+    <div id="header">    
+    <div id="subheader">    
+     
+        <div class="container">
+            <p> world Fastest Online Shopping websites</p>
+            <a href="#">Contact Us</a> <a href="#">Downlaod App</a> <a href="#">Downlaod App</a> <a href="#">Home</a>
+        </div>
+        </div>
+        <div id="main-header">
+            
+            <div id="logo">
+            <span id="ist">Flip</span><span id="iist">ON.com</span>
+            </div>
+            
+     <div id="search">
+     
+         <form>
+    <input class="search-area" type="text" name="text" placeholder="serach here. .">
+    <input class="search-btn"  type="submit" name="submit" value="SEARCH">
+     </form>
+      
+    </div>
+            <div id="user">
+                <li> <a href="SignUp.html">&#9442;SignIn</a> </li> 
+                <li> <a href="cart2.html">&#128722;Cart</a> </li> 
+            </div>
+    
+        </div>
+                </div>
+
+        <!--navigation bar--->
+        <!--<div id="navigation">
+           <nav>
+               <a href="#">Home</a>
+               <a href="#">New Arrivals</a>
+                <a href="#">Deals</a>
+               <a href="#">Electronics</a>
+               <a href="#">Accessroies</a>
+              <a href="#">Products</a>
+              <a href="#">My Order</a>
+               
+           </nav> 
+        </div>-->
+        <div id="navigation">
+    <nav >       <!--like p,list tag-->
+            
+    <ul class="top" id="dropclick">
+        
+        
+        
+        <li>
+            <a href="#news">&#127969;Home</a>
+           
+        </li>
+        
+              <li><a href="#news">	&#128478;New Arrivals	</a>
+        </li>
+           <li>   <a href="#contact">&#128241;Deals	</a> 
+        </li>
+        <li>
+            <a href="#about">&#128241;Products</a>
+             <ul class="dropdown-content">
+                 <li>Men's</li>
+                  <li>Men's</li>
+                  <li>Men's</li>
+                  <li>Men's</li>
+                  <li>Men's</li>
+            </ul>
+        </li>
+        
+        <li class="top-right"><a href="#sign up">&#128722;My Order </a>
+        </li>
+        
+        
+      
+      <li class="dropicon" ><a href="javascript:void(0);" onclick="dropMenu()" >&#9776;</a></li>
+      </ul>        
+        
+ </nav>
+        </div>
+        
+        <div id="slider">
+            <ul>
+                <li><img class="i" src="Image/slider2.png"></li>
+                <li><img class="i" src="Image/slider1.jpg"></li>
+                <li><img class="i" src="Image/slider3.jpg"></li>
+            </ul>
+       
+        
+
+            <!--dot-->
+            <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+        </div>            
+             
+        
+       <!--category section<mens,womens>--> 
+        <div class="container">
+            <div id="heading-block">
+                <h2>Category</h2>
+            </div>
+            
+            <!--category box-->
+             <a href="project.html">
+            <div class="catbox"> 
+                 <img src="Image/cat2.jpg" alt="Men-fashion">
+                 <span>Men Fashion</span>
+                </div>
+                </a>
+            
+            <a href="product-women.html">
+            <div class="catbox"> 
+                 <img src="Image/cat3.jpg" alt="Men-fashion">
+                 <span>WOMen Fashion</span>
+                </div>
+                </a>
+            
+            <a href="Electronics.html">
+            <div class="catbox"> 
+                 <img src="Image/cat5.jpg" alt="Men-fashion">
+                 <span>Electronics</span>
+                </div>
+                </a>
+            
+            <a href="gaming.html">
+            <div class="catbox"> 
+                 <img src="Image/cat6.jpg" alt="Men-fashion">
+                 <span>Computer/Gaming</span>
+                </div>
+                </a>
+            
+            
+             <!--category box end-->
+            
+        
+            
+        <!--Heading Category<product>--> 
+          <div id="heading-block" >
+              <h2>Products</h2>
+          </div>
+            <div class="prod-container" >
+                <!--first products-->
+                <div class="prod-box" >
+                  <img src="Image/product1.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Man's special suit</p>  
+                         <p style="color:#fff;font-weight:bold">price : $53</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                <!--second products-->
+                <div class="prod-box" >
+                  <img src="Image/Product2.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>caual Men's shirt's</p>  
+                         <p style="color:#fff;font-weight:bold">price : $20</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                <!--third products-->
+                <div class="prod-box" >
+                  <img src="Image/Product3.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Women's special suit</p>  
+                         <p style="color:#fff;font-weight:bold">price : $55</p>
+                            <input  onclick="adcart()" type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                <!--forth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product4.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Special watches for men</p>  
+                            <p style="color:#fff;font-weight:bold">price : $55</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                
+                
+                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product5.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Fastrack Watch for Men</p>  
+                         <p style="color:#fff;font-weight:bold">price : $20</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product6.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Fastrack Watch for WoMen</p>  
+                         <p style="color:#fff;font-weight:bold">price : $25</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product7.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Skybags</p>  
+                         <p style="color:#fff;font-weight:bold">price : $30</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product8.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Samgung Prime</p>  
+                         <p style="color:#fff;font-weight:bold">price : $200</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                
+                                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product9.jpg" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Spearkers</p>  
+                         <p style="color:#fff;font-weight:bold">price : $30</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+                
+                
+                                                <!--fifth products-->
+                <div class="prod-box" >
+                  <img src="Image/Product10.png" alt="man suit">
+                    <div class="prod-trans">
+                        <div class="product-feature">
+                        <p>Predator Asus</p>  
+                         <p style="color:#fff;font-weight:bold">price : $200</p>
+                            <input type="button" value="Add to cart">
+                            
+                        </div>
+                    </div>
+         
+                </div>
+            </div> 
+           
+            <div class="container">
+                
+                <div id="heading-block">
+                    <h2>Offer</h2>
+                </div>
+                
+                <div class="offer">
+                    <a href="#"><img src="Image/offer1.png"></a>
+                </div>
+                
+                 <div class="offer">
+                    <a href="#"><img src="Image/special2.jpg"></a>
+                </div>
+                
+                 <div class="offer">
+                    <a href="#"><img src="Image/special3.jpg"></a>
+                </div>
+                
+                 
+            
+            </div>
+            
+            
+     </div>
+        <div id="footer">
+            <div class="container">
+                
+            
+                <div class="footer_sub1">
+                    <h2>our story</h2>
+                    <p>This websites Today, it takes more than a pretty website to be successful.
+
+Web design and digital marketing has come a long way in the last few years, and an SEO optimized website has gone from being a luxury, to an absolute necessity.Thank You For All Ur support.
+
+<span><a href="https://thestorywebs.com/our-story/">read more. . . </a></span></p>
+            </div>
+              <!-- <div class="footer_sub2">
+                    <center>
+                        <h2>Importtant Links</h2>
+                        
+                        <ul>
+                        
+                        <li><a href="#">Home</a></li>
+                         <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                            
+                            
+                        </ul>
+                    </center>
+            </div>--> 
+               
+                 <div class="footer_sub2">
+                    
+                        <h2>Social Links</h2>
+                        
+                        
+                       
+                     <a  class="btn" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                     <a  class="btn" href="">
+                        <i class="fab fa-google"></i>
+                    </a>
+                     <a class="btn" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                     <a class="btn" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    
+            </div>
+               
+                
+                
+                <div class="footer_sub3">
+                    <center>
+                    <h2> subscribe us</h2>
+                        <form method="POST" name="regno" onsubmit='return sub()'>
+                        <input type="text" name="email"  value="" placeholder="Write your E-mail" id="input1" >
+                     <input type="submit" name="submit_btn" value="subscribe"  class="sub1" required>
+                        <p class="par">Enter your E-mail id for notifaction by us</p>
+                        </form>
+                    
+                    </center>
+                </div>
+                <!--Social button-->
+                
+            </div>
+        </div>
+        </div>
+ 
+<script>
+/*var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("i");
+    var y=document.getElememntsByClassName("dot");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}*/
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("i");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    <script>
+        var price=$(document).attr()
+    </script>
+    
+    <!--script for nav part-->
+     <script>
+        
+        function dropMenu(){
+            var x=document.getElementById("dropclick");
+            if(x.className === "top"){
+                x.className += " responsive";
+/* change top to top.responsive  */
+                
+         }
+            else{
+                x.className="top";
+                
+            }
+        }
+        
+ </script> 
+    
+   
+    <script type="text/javascript">
+		
+
+		function sub(){
+
+		
+			var email=document.forms["regno"]["email"];
+
+			if(email.value=="")
+			{
+				alert("email field is blank");
+                    return false;
+			}
+
+
+			 else if(email.value.indexOf("@",0)<0)
+			{
+				alert("@ symbol missing");
+				return false;
+			}
+             else if(email.value.indexOf(".com",0)<0)
+			{
+				alert(".com symbol missing");
+				return false;
+			}
+			 
+
+
+
+		
+      alert("You are Now subscribed to our websites");
+  }
+
+	</script>
+    
+    
+    <script>
+       
+    </script>
+    
+</body>
+</hmtl>
